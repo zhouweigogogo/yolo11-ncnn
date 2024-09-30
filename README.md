@@ -1,7 +1,6 @@
 # yolov11-ncnn
 
 ## How to build and run
-
 ``` shell
 mkdir build
 cd build 
@@ -11,8 +10,7 @@ make
 ```
 
 ## Show
-
-
+![show](./data/output.jpg)
 
 ## reference
 
