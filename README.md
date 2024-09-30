@@ -1,5 +1,11 @@
 # yolov11-ncnn
 
+## Benchmark.
+| Model  | Infer time|
+| ------------- | :-------------: |
+| YOLOv5n  | 54 mS |
+| YOLOv11n  | 48ms  |
+
 ## How to build and run
 ``` shell
 mkdir build
