@@ -192,9 +192,9 @@ static int detect_yolov11(const cv::Mat& bgr, std::vector<Object>& objects)
 
 	// original pretrained model from https://github.com/ultralytics/ultralytics
 	// the ncnn model https://github.com/nihui/ncnn-assets/tree/master/models
-	if (yolov11.load_param("/home/zhouw/code/cpp/yolov11/models/yolo11n.ncnn.param"))
+	if (yolov11.load_param("../models/yolov11n.ncnn.param"))
 		exit(-1);
-	if (yolov11.load_model("/home/zhouw/code/cpp/yolov11/models/yolo11n.ncnn.bin"))
+	if (yolov11.load_model("../models/yolov11n.ncnn.bin"))
 		exit(-1);
 
 	const int target_size = 640;
