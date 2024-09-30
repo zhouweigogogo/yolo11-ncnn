@@ -3,7 +3,7 @@
 ## Benchmark.
 | Model  | Infer time|
 | ------------- | :-------------: |
-| YOLOv5n  | 54 ms |
+| YOLOv5s  | 54 ms |
 | YOLOv11n  | 48 ms |
 
 ## How to build and run
