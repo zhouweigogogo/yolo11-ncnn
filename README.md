@@ -1,10 +1,10 @@
-# yolov11-ncnn
+# yolo11-ncnn
 
 ## Benchmark.
 | Model  | Infer time|
 | ------------- | :-------------: |
 | YOLOv5s  | 54 ms |
-| YOLOv11n  | 48 ms |
+| YOLO11n  | 48 ms |
 
 ## How to build and run
 ``` shell
